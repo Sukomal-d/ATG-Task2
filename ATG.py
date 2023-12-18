@@ -16,7 +16,7 @@ class TestWebsiteLoading(unittest.TestCase):
             driver.maximize_window()
         # defining condition for implicit waits - we have set 10 seconds
             driver.implicitly_wait(10)
-            driver.get("https://atg.world")
+            driver.get("https://www.atg.world/")
 
             pageTitel = driver.title
             print("Page Title :"+pageTitel)
