@@ -7,7 +7,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 
 
 chrome_path = 'C:\chromedriver-win64 (1)\chromedriver-win64'
-driver = webdriver.Chrome(chrome_path = 'C:\chromedriver-win64 (1)\chromedriver-win64')
+driver = webdriver.Chrome(chrome_path)
 
 class TestWebsiteLoading(unittest.TestCase):
 
